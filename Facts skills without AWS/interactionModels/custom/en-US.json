@@ -1,0 +1,38 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "demoskill",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "factintent",
+          "slots": [],
+          "samples": [
+            "fact on computers",
+            "computer fact ",
+            "fact abour computer",
+            "fact about ",
+            "tell me fact"
+          ]
+        }
+      ],
+      "types": []
+    }
+  },
+  "version": "3"
+}
