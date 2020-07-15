@@ -1,0 +1,37 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "खेल तथ्य",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "factintent",
+          "slots": [],
+          "samples": [
+            "मुझे खेल के बारे में बताओ",
+            "tell me about sports ",
+            "tell me a fact",
+            "मुझे एक तथ्य बताओ"
+          ]
+        }
+      ],
+      "types": []
+    }
+  },
+  "version": "3"
+}
